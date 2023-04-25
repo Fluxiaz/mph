@@ -11,11 +11,13 @@
 <body>
   <h1>MPHjemmesider.dk</h1>
   <div class="menu">
-    <a href="C:\Users\mgama\hej\src\index.html" class="active">Startside</a>
-    <a href="hvemervi.html">Hvem er vi</a>
-    <a href="priser.html">Priser og ydelser</a>
-    <a href="kontakt.html">Kontakt</a>
+    <a href="app.component.html" class="active">Startside</a>
+    <a routerLink="/hvemervi" routerLinkActive="active">Hvem er vi</a>
+    <a href="src\priser.html">Priser og ydelser</a>
+    <a href="src\kontakt.html">Kontakt</a>
   </div>
+  <router-outlet></router-outlet>
+ 
 
   <div class="slideshow-container">
 
